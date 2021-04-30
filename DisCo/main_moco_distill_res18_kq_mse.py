@@ -547,6 +547,7 @@ def accuracy(output, target, topk=(1,)):
             res.append(correct_k.mul_(100.0 / batch_size))
         return res
 
+
 def get_last_checkpoint(checkpoint_dir):
     all_ckpt = glob.glob(os.path.join(checkpoint_dir, 'checkpoint_0*.pth.tar'))
     if all_ckpt:
@@ -554,6 +555,7 @@ def get_last_checkpoint(checkpoint_dir):
         return all_ckpt[-1]
     else:
         return ''
+
 
 if __name__ == '__main__':
     main()
