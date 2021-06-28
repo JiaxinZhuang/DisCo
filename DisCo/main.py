@@ -25,9 +25,6 @@ import glob
 
 import moco.loader
 import moco.builder_kq_mse_largeembedding_2048
-#import moco.builder_kq_mse_largeembedding_2048_spatial
-#from models.model import create_model, load_model, save_model
-#from moco.datasets.jiaotong_plate import JiaoTongPlate
 
 from models.efficientnet import efficientnet_b0
 from models.efficientnet import efficientnet_b1

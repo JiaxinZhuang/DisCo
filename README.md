@@ -11,7 +11,6 @@ Pytorch Implementation for [DisCo: Remedy Self-supervised Learning on Lightweigh
 * Python3
 * Pytorch 1.6+
 * Detectron2
-
 * 8 GPUs are preferred
 * ImageNet, Cifar10/100, VOC, COCO
 
@@ -32,39 +31,39 @@ For pretraining baseline models with default hidden layer dimension in **Tab1**
 cd moco
 
 # R-50
-python3 -u main_moco.py -a resnet50 --batch-size 256 --learning-rate 0.03 --mlp --moco-t 0.2 --aug-plus --cos --epochs 200 --dist-url 'tcp://localhost:10001' --multiprocessing-distributed --world-size 1 --rank 0 --hidden 2048 /dev/shm/ 2>&1 | tee ./logs/std.log
+python3 -u main.py -a resnet50 --batch-size 256 --learning-rate 0.03 --mlp --moco-t 0.2 --aug-plus --cos --epochs 200 --dist-url 'tcp://localhost:10001' --multiprocessing-distributed --world-size 1 --rank 0 --hidden 2048 /dev/shm/ 2>&1 | tee ./logs/std.log
 python3 main_lincls.py -a resnet50 --learning-rate 3.0 --batch-size 256 --dist-url 'tcp://localhost:10001' --multiprocessing-distributed --world-size 1 --rank 0 --pretrained /path/to/ckpt/checkpoint_0199.pth.tar /dev/shm/ 2>&1 | tee ./logs/std.log
 
 # R-101
-python3 -u main_moco.py -a resnet101 --batch-size 256 --learning-rate 0.03 --mlp --moco-t 0.2 --aug-plus --cos --epochs 200 --dist-url 'tcp://localhost:10001' --multiprocessing-distributed --world-size 1 --rank 0 --hidden 2048 /dev/shm/ 2>&1 | tee ./logs/std.log
+python3 -u main.py -a resnet101 --batch-size 256 --learning-rate 0.03 --mlp --moco-t 0.2 --aug-plus --cos --epochs 200 --dist-url 'tcp://localhost:10001' --multiprocessing-distributed --world-size 1 --rank 0 --hidden 2048 /dev/shm/ 2>&1 | tee ./logs/std.log
 python3 main_lincls.py -a resnet101 --learning-rate 3.0 --batch-size 256 --dist-url 'tcp://localhost:10001' --multiprocessing-distributed --world-size 1 --rank 0 --pretrained /path/to/ckpt/checkpoint_0199.pth.tar /dev/shm/ 2>&1 | tee ./logs/std.log
 
 # R-152
-python3 -u main_moco.py -a resnet152 --batch-size 256 --learning-rate 0.03 --mlp --moco-t 0.2 --aug-plus --cos --epochs 800 --dist-url 'tcp://localhost:10001' --multiprocessing-distributed --world-size 1 --rank 0 --hidden 2048 /dev/shm/ 2>&1 | tee ./logs/std.log
+python3 -u main.py -a resnet152 --batch-size 256 --learning-rate 0.03 --mlp --moco-t 0.2 --aug-plus --cos --epochs 800 --dist-url 'tcp://localhost:10001' --multiprocessing-distributed --world-size 1 --rank 0 --hidden 2048 /dev/shm/ 2>&1 | tee ./logs/std.log
 python3 main_lincls.py -a resnet152 --learning-rate 3.0 --batch-size 256 --dist-url 'tcp://localhost:10001' --multiprocessing-distributed --world-size 1 --rank 0 --pretrained /path/to/ckpt/checkpoint_0799.pth.tar /dev/shm/ 2>&1 | tee ./logs/std.log
 
 # Mob
-python3 -u main_moco.py -a mobilenetv3 --batch-size 256 --learning-rate 0.03 --mlp --moco-t 0.2 --aug-plus --cos --epochs 200 --dist-url 'tcp://localhost:10001' --multiprocessing-distributed --world-size 1 --rank 0 --hidden 512 /dev/shm 2>&1 |  tee ./logs/std.log
+python3 -u main.py -a mobilenetv3 --batch-size 256 --learning-rate 0.03 --mlp --moco-t 0.2 --aug-plus --cos --epochs 200 --dist-url 'tcp://localhost:10001' --multiprocessing-distributed --world-size 1 --rank 0 --hidden 512 /dev/shm 2>&1 |  tee ./logs/std.log
 #          Evaluation
 python3 main_lincls.py -a mobilenetv3 --learning-rate 3.0 --batch-size 256 --dist-url 'tcp://localhost:10001' --multiprocessing-distributed --world-size 1 --rank 0 --pretrained /path/to/ckpt/checkpoint_0199.pth.tar /dev/shm/ 2>&1 | tee ./logs/std.log
 
 # Effi-B0
-python3 -u main_moco.py -a efficientb0 --batch-size 256 --learning-rate 0.03 --mlp --moco-t 0.2 --aug-plus --cos --epochs 200 --dist-url 'tcp://localhost:10001' --multiprocessing-distributed --world-size 1 --rank 0 --hidden 1280 2>&1  |  tee ./logs/std.log
+python3 -u main.py -a efficientb0 --batch-size 256 --learning-rate 0.03 --mlp --moco-t 0.2 --aug-plus --cos --epochs 200 --dist-url 'tcp://localhost:10001' --multiprocessing-distributed --world-size 1 --rank 0 --hidden 1280 2>&1  |  tee ./logs/std.log
 #          Evaluation
 python3 main_lincls.py -a efficientb0 --learning-rate 3.0 --batch-size 256 --dist-url 'tcp://localhost:10001' --multiprocessing-distributed --world-size 1 --rank 0 --pretrained /path/to/ckpt/checkpoint_0199.pth.tar /dev/shm/ 2>&1 | tee ./logs/std.log
 
 # Effi-B1
-python3 -u main_moco.py -a efficientb1 --batch-size 256 --learning-rate 0.03 --mlp --moco-t 0.2 --aug-plus --cos --epochs 200 --dist-url 'tcp://localhost:10001' --multiprocessing-distributed --world-size 1 --rank 0  --hidden 1280  /dev/shm  2>&1 | tee ./logs/std.log
+python3 -u main.py -a efficientb1 --batch-size 256 --learning-rate 0.03 --mlp --moco-t 0.2 --aug-plus --cos --epochs 200 --dist-url 'tcp://localhost:10001' --multiprocessing-distributed --world-size 1 --rank 0  --hidden 1280  /dev/shm  2>&1 | tee ./logs/std.log
 #          Evaluation
 python3 main_lincls.py -a efficientb1 --learning-rate 3.0 --batch-size 256 --dist-url 'tcp://localhost:10001' --multiprocessing-distributed --world-size 1 --rank 0 --pretrained /path/to/ckpt/checkpoint_0199.pth.tar /dev/shm/ 2>&1 | tee ./logs/std.log
 
 # R-18
-python3 -u main_moco.py -a resnet18 --batch-size 256 --learning-rate 0.03 --mlp --moco-t 0.2 --aug-plus --cos --epochs 200 --dist-url 'tcp://localhost:10001' --multiprocessing-distributed --world-size 1 --rank 0 --hidden 1280 /dev/shm/ 2>&1 | tee ./logs/std.log
+python3 -u main.py -a resnet18 --batch-size 256 --learning-rate 0.03 --mlp --moco-t 0.2 --aug-plus --cos --epochs 200 --dist-url 'tcp://localhost:10001' --multiprocessing-distributed --world-size 1 --rank 0 --hidden 1280 /dev/shm/ 2>&1 | tee ./logs/std.log
 #          Evaluation
 python3 main_lincls.py -a resnet18 --learning-rate 3.0 --batch-size 256 --dist-url 'tcp://localhost:10001' --multiprocessing-distributed --world-size 1 --rank 0 --pretrained /path/to/ckpt/checkpoint_0199.pth.tar /dev/shm/ 2>&1 | tee ./logs/std.log
 
 # R-34
-python3 -u main_moco.py -a resnet34 --batch-size 256 --learning-rate 0.03 --mlp --moco-t 0.2 --aug-plus --cos --epochs 200 --dist-url 'tcp://localhost:10001' --multiprocessing-distributed --world-size 1 --rank 0 --hidden 1280 /dev/shm/ 2>&1 | tee ./logs/std.log
+python3 -u main.py -a resnet34 --batch-size 256 --learning-rate 0.03 --mlp --moco-t 0.2 --aug-plus --cos --epochs 200 --dist-url 'tcp://localhost:10001' --multiprocessing-distributed --world-size 1 --rank 0 --hidden 1280 /dev/shm/ 2>&1 | tee ./logs/std.log
 #          Evaluation
 python3 main_lincls.py -a resnet34 --learning-rate 3.0 --batch-size 256 --dist-url 'tcp://localhost:10001' --multiprocessing-distributed --world-size 1 --rank 0 --pretrained /path/to/ckpt/checkpoint_0199.pth.tar /dev/shm/ 2>&1 | tee ./logs/std.log
 ```
@@ -110,7 +109,7 @@ cp -r /path/to/VOCdevkit/* /dev/shm/
 cp -r /path/to/coco_2017 /dev/shm/coco
 export DETECTRON2_DATASETS=/dev/shm
 
-pip install /youtu-reid/jiaxzhuang/acmm/detectron2-0.4+cu101-cp36-cp36m-linux_x86_64.whl
+pip install ./detectron2-0.4+cu101-cp36-cp36m-linux_x86_64.whl
 cd detection
 
 # Convert model for Detectron2
@@ -255,7 +254,15 @@ code for BI is put on **data**
 
 ## Checkpoints
 
-TO BE Released.
+TO BE Releasese...
+
+| Architecture | Self-supervised Methods | Model Checkpoints |
+| :----------- | ----------------------- | ----------------- |
+| ResNet152    | MoCo-V2                 |                   |
+| ResNet101    | MoCo-V2                 |                   |
+| ResNet50     | MoCo-V2                 |                   |
+
+For teacher models such as ResNet-50*2 etc, we use their official implementation, which can be downloaded from their github pages. 
 
 
 

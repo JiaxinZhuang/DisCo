@@ -62,8 +62,6 @@ AverageMeter	DisCo/main_embd.py	/^class AverageMeter(object):$/;"	c
 AverageMeter	DisCo/main_lincls.py	/^class AverageMeter(object):$/;"	c
 AverageMeter	DisCo/main_lincls_ft.py	/^class AverageMeter(object):$/;"	c
 AverageMeter	DisCo/main_lincls_semi.py	/^class AverageMeter(object):$/;"	c
-AverageMeter	DisCo/main_moco.py	/^class AverageMeter(object):$/;"	c
-AverageMeter	DisCo/main_moco_distill.py	/^class AverageMeter(object):$/;"	c
 AverageMeter	DisCo/main_moco_distill_rkd.py	/^class AverageMeter(object):$/;"	c
 AverageMeter	moco/cifar_main_lincls.py	/^class AverageMeter(object):$/;"	c
 AverageMeter	moco/main_lincls.py	/^class AverageMeter(object):$/;"	c
@@ -2005,8 +2003,6 @@ ProgressMeter	DisCo/main_embd.py	/^class ProgressMeter(object):$/;"	c
 ProgressMeter	DisCo/main_lincls.py	/^class ProgressMeter(object):$/;"	c
 ProgressMeter	DisCo/main_lincls_ft.py	/^class ProgressMeter(object):$/;"	c
 ProgressMeter	DisCo/main_lincls_semi.py	/^class ProgressMeter(object):$/;"	c
-ProgressMeter	DisCo/main_moco.py	/^class ProgressMeter(object):$/;"	c
-ProgressMeter	DisCo/main_moco_distill.py	/^class ProgressMeter(object):$/;"	c
 ProgressMeter	DisCo/main_moco_distill_rkd.py	/^class ProgressMeter(object):$/;"	c
 ProgressMeter	moco/cifar_main_lincls.py	/^class ProgressMeter(object):$/;"	c
 ProgressMeter	moco/main_lincls.py	/^class ProgressMeter(object):$/;"	c
@@ -2900,10 +2896,6 @@ __init__	DisCo/main_lincls_ft.py	/^    def __init__(self, name, fmt=':f'):$/;"	m
 __init__	DisCo/main_lincls_ft.py	/^    def __init__(self, num_batches, meters, prefix=""):$/;"	m	class:ProgressMeter
 __init__	DisCo/main_lincls_semi.py	/^    def __init__(self, name, fmt=':f'):$/;"	m	class:AverageMeter
 __init__	DisCo/main_lincls_semi.py	/^    def __init__(self, num_batches, meters, prefix=""):$/;"	m	class:ProgressMeter
-__init__	DisCo/main_moco.py	/^    def __init__(self, name, fmt=':f'):$/;"	m	class:AverageMeter
-__init__	DisCo/main_moco.py	/^    def __init__(self, num_batches, meters, prefix=""):$/;"	m	class:ProgressMeter
-__init__	DisCo/main_moco_distill.py	/^    def __init__(self, name, fmt=':f'):$/;"	m	class:AverageMeter
-__init__	DisCo/main_moco_distill.py	/^    def __init__(self, num_batches, meters, prefix=""):$/;"	m	class:ProgressMeter
 __init__	DisCo/main_moco_distill_rkd.py	/^    def __init__(self, name, fmt=':f'):$/;"	m	class:AverageMeter
 __init__	DisCo/main_moco_distill_rkd.py	/^    def __init__(self, num_batches, meters, prefix=""):$/;"	m	class:ProgressMeter
 __init__	DisCo/moco/builder.py	/^    def __init__(self, base_encoder, teacher_encoder, dim=128, K=65536, m=0.999, T=0.07, mlp=False, arch=None):$/;"	m	class:MoCo
@@ -3876,8 +3868,6 @@ __str__	DisCo/main_embd.py	/^    def __str__(self):$/;"	m	class:AverageMeter	fil
 __str__	DisCo/main_lincls.py	/^    def __str__(self):$/;"	m	class:AverageMeter	file:
 __str__	DisCo/main_lincls_ft.py	/^    def __str__(self):$/;"	m	class:AverageMeter	file:
 __str__	DisCo/main_lincls_semi.py	/^    def __str__(self):$/;"	m	class:AverageMeter	file:
-__str__	DisCo/main_moco.py	/^    def __str__(self):$/;"	m	class:AverageMeter	file:
-__str__	DisCo/main_moco_distill.py	/^    def __str__(self):$/;"	m	class:AverageMeter	file:
 __str__	DisCo/main_moco_distill_rkd.py	/^    def __str__(self):$/;"	m	class:AverageMeter	file:
 __str__	moco/cifar_main_lincls.py	/^    def __str__(self):$/;"	m	class:AverageMeter	file:
 __str__	moco/main_lincls.py	/^    def __str__(self):$/;"	m	class:AverageMeter	file:
@@ -4288,8 +4278,6 @@ _get_batch_fmtstr	DisCo/main_embd.py	/^    def _get_batch_fmtstr(self, num_batch
 _get_batch_fmtstr	DisCo/main_lincls.py	/^    def _get_batch_fmtstr(self, num_batches):$/;"	m	class:ProgressMeter
 _get_batch_fmtstr	DisCo/main_lincls_ft.py	/^    def _get_batch_fmtstr(self, num_batches):$/;"	m	class:ProgressMeter
 _get_batch_fmtstr	DisCo/main_lincls_semi.py	/^    def _get_batch_fmtstr(self, num_batches):$/;"	m	class:ProgressMeter
-_get_batch_fmtstr	DisCo/main_moco.py	/^    def _get_batch_fmtstr(self, num_batches):$/;"	m	class:ProgressMeter
-_get_batch_fmtstr	DisCo/main_moco_distill.py	/^    def _get_batch_fmtstr(self, num_batches):$/;"	m	class:ProgressMeter
 _get_batch_fmtstr	DisCo/main_moco_distill_rkd.py	/^    def _get_batch_fmtstr(self, num_batches):$/;"	m	class:ProgressMeter
 _get_batch_fmtstr	moco/cifar_main_lincls.py	/^    def _get_batch_fmtstr(self, num_batches):$/;"	m	class:ProgressMeter
 _get_batch_fmtstr	moco/main_lincls.py	/^    def _get_batch_fmtstr(self, num_batches):$/;"	m	class:ProgressMeter
@@ -4511,8 +4499,6 @@ accuracy	DisCo/main_embd.py	/^def accuracy(output, target, topk=(1,)):$/;"	f
 accuracy	DisCo/main_lincls.py	/^def accuracy(output, target, topk=(1,)):$/;"	f
 accuracy	DisCo/main_lincls_ft.py	/^def accuracy(output, target, topk=(1,)):$/;"	f
 accuracy	DisCo/main_lincls_semi.py	/^def accuracy(output, target, topk=(1,)):$/;"	f
-accuracy	DisCo/main_moco.py	/^def accuracy(output, target, topk=(1,)):$/;"	f
-accuracy	DisCo/main_moco_distill.py	/^def accuracy(output, target, topk=(1,)):$/;"	f
 accuracy	DisCo/main_moco_distill_rkd.py	/^def accuracy(output, target, topk=(1,)):$/;"	f
 accuracy	moco/cifar_main_lincls.py	/^def accuracy(output, target, topk=(1,)):$/;"	f
 accuracy	moco/main_lincls.py	/^def accuracy(output, target, topk=(1,)):$/;"	f
@@ -4570,8 +4556,6 @@ adjust_learning_rate	DisCo/main_embd.py	/^def adjust_learning_rate(optimizer, ep
 adjust_learning_rate	DisCo/main_lincls.py	/^def adjust_learning_rate(optimizer, epoch, args):$/;"	f
 adjust_learning_rate	DisCo/main_lincls_ft.py	/^def adjust_learning_rate(optimizer, epoch, args):$/;"	f
 adjust_learning_rate	DisCo/main_lincls_semi.py	/^def adjust_learning_rate(optimizer, epoch, args):$/;"	f
-adjust_learning_rate	DisCo/main_moco.py	/^def adjust_learning_rate(optimizer, epoch, args):$/;"	f
-adjust_learning_rate	DisCo/main_moco_distill.py	/^def adjust_learning_rate(optimizer, epoch, args):$/;"	f
 adjust_learning_rate	DisCo/main_moco_distill_rkd.py	/^def adjust_learning_rate(optimizer, epoch, args):$/;"	f
 adjust_learning_rate	moco/cifar_main_lincls.py	/^def adjust_learning_rate(optimizer, epoch, args):$/;"	f
 adjust_learning_rate	moco/main_lincls.py	/^def adjust_learning_rate(optimizer, epoch, args):$/;"	f
@@ -4615,8 +4599,6 @@ argparse	DisCo/main_embd.py	/^import argparse$/;"	i
 argparse	DisCo/main_lincls.py	/^import argparse$/;"	i
 argparse	DisCo/main_lincls_ft.py	/^import argparse$/;"	i
 argparse	DisCo/main_lincls_semi.py	/^import argparse$/;"	i
-argparse	DisCo/main_moco.py	/^import argparse$/;"	i
-argparse	DisCo/main_moco_distill.py	/^import argparse$/;"	i
 argparse	DisCo/main_moco_distill_rkd.py	/^import argparse$/;"	i
 argparse	moco/cifar_main_lincls.py	/^import argparse$/;"	i
 argparse	moco/main_lincls.py	/^import argparse$/;"	i
@@ -4669,8 +4651,6 @@ backends	DisCo/main_embd.py	/^import torch.backends.cudnn as cudnn$/;"	i
 backends	DisCo/main_lincls.py	/^import torch.backends.cudnn as cudnn$/;"	i
 backends	DisCo/main_lincls_ft.py	/^import torch.backends.cudnn as cudnn$/;"	i
 backends	DisCo/main_lincls_semi.py	/^import torch.backends.cudnn as cudnn$/;"	i
-backends	DisCo/main_moco.py	/^import torch.backends.cudnn as cudnn$/;"	i
-backends	DisCo/main_moco_distill.py	/^import torch.backends.cudnn as cudnn$/;"	i
 backends	DisCo/main_moco_distill_rkd.py	/^import torch.backends.cudnn as cudnn$/;"	i
 backends	moco/cifar_main_lincls.py	/^import torch.backends.cudnn as cudnn$/;"	i
 backends	moco/main_lincls.py	/^import torch.backends.cudnn as cudnn$/;"	i
@@ -4914,7 +4894,6 @@ build_model_with_cfg	swav-master/src/tresnet.py	/^from .helpers import build_mod
 build_model_with_cfg	swav-master/src/vovnet.py	/^from .helpers import build_model_with_cfg$/;"	i
 build_model_with_cfg	swav-master/src/xception.py	/^from .helpers import build_model_with_cfg$/;"	i
 build_model_with_cfg	swav-master/src/xception_aligned.py	/^from .helpers import build_model_with_cfg$/;"	i
-builder	DisCo/main_moco_distill.py	/^import moco.builder$/;"	i
 builder	moco/main_moco.py	/^import moco.builder$/;"	i
 builder_kq_mse_largeembedding_2048	DisCo/main.py	/^import moco.builder_kq_mse_largeembedding_2048$/;"	i
 builder_kq_mse_largeembedding_2048	DisCo/main_moco_distill_rkd.py	/^import moco.builder_kq_mse_largeembedding_2048$/;"	i
@@ -4924,8 +4903,6 @@ builtins	DisCo/main_embd.py	/^import builtins$/;"	i
 builtins	DisCo/main_lincls.py	/^import builtins$/;"	i
 builtins	DisCo/main_lincls_ft.py	/^import builtins$/;"	i
 builtins	DisCo/main_lincls_semi.py	/^import builtins$/;"	i
-builtins	DisCo/main_moco.py	/^import builtins$/;"	i
-builtins	DisCo/main_moco_distill.py	/^import builtins$/;"	i
 builtins	DisCo/main_moco_distill_rkd.py	/^import builtins$/;"	i
 builtins	moco/cifar_main_lincls.py	/^import builtins$/;"	i
 builtins	moco/main_lincls.py	/^import builtins$/;"	i
@@ -4994,8 +4971,6 @@ choices	DisCo/main_embd.py	/^                    choices=model_names,$/;"	v
 choices	DisCo/main_lincls.py	/^                    choices=model_names,$/;"	v
 choices	DisCo/main_lincls_ft.py	/^                    choices=model_names,$/;"	v
 choices	DisCo/main_lincls_semi.py	/^                    choices=model_names,$/;"	v
-choices	DisCo/main_moco.py	/^                    choices=model_names,$/;"	v
-choices	DisCo/main_moco_distill.py	/^                    choices=model_names,$/;"	v
 choices	DisCo/main_moco_distill_rkd.py	/^                    choices=model_names,$/;"	v
 choices	moco/cifar_main_lincls.py	/^                    choices=['cifar10', 'cifar100'],$/;"	v
 choices	moco/cifar_main_lincls.py	/^                    choices=model_names,$/;"	v
@@ -5408,8 +5383,6 @@ cudnn	DisCo/main_embd.py	/^import torch.backends.cudnn as cudnn$/;"	i
 cudnn	DisCo/main_lincls.py	/^import torch.backends.cudnn as cudnn$/;"	i
 cudnn	DisCo/main_lincls_ft.py	/^import torch.backends.cudnn as cudnn$/;"	i
 cudnn	DisCo/main_lincls_semi.py	/^import torch.backends.cudnn as cudnn$/;"	i
-cudnn	DisCo/main_moco.py	/^import torch.backends.cudnn as cudnn$/;"	i
-cudnn	DisCo/main_moco_distill.py	/^import torch.backends.cudnn as cudnn$/;"	i
 cudnn	DisCo/main_moco_distill_rkd.py	/^import torch.backends.cudnn as cudnn$/;"	i
 cudnn	moco/cifar_main_lincls.py	/^import torch.backends.cudnn as cudnn$/;"	i
 cudnn	moco/main_lincls.py	/^import torch.backends.cudnn as cudnn$/;"	i
@@ -5444,10 +5417,6 @@ data	DisCo/main_lincls_ft.py	/^import torch.utils.data$/;"	i
 data	DisCo/main_lincls_ft.py	/^import torch.utils.data.distributed$/;"	i
 data	DisCo/main_lincls_semi.py	/^import torch.utils.data$/;"	i
 data	DisCo/main_lincls_semi.py	/^import torch.utils.data.distributed$/;"	i
-data	DisCo/main_moco.py	/^import torch.utils.data$/;"	i
-data	DisCo/main_moco.py	/^import torch.utils.data.distributed$/;"	i
-data	DisCo/main_moco_distill.py	/^import torch.utils.data$/;"	i
-data	DisCo/main_moco_distill.py	/^import torch.utils.data.distributed$/;"	i
 data	DisCo/main_moco_distill_rkd.py	/^import torch.utils.data$/;"	i
 data	DisCo/main_moco_distill_rkd.py	/^import torch.utils.data.distributed$/;"	i
 data	moco/cifar_main_lincls.py	/^import torch.utils.data$/;"	i
@@ -5472,8 +5441,6 @@ datasets	DisCo/main_embd.py	/^import torchvision.datasets as datasets$/;"	i
 datasets	DisCo/main_lincls.py	/^import torchvision.datasets as datasets$/;"	i
 datasets	DisCo/main_lincls_ft.py	/^import torchvision.datasets as datasets$/;"	i
 datasets	DisCo/main_lincls_semi.py	/^import torchvision.datasets as datasets$/;"	i
-datasets	DisCo/main_moco.py	/^import torchvision.datasets as datasets$/;"	i
-datasets	DisCo/main_moco_distill.py	/^import torchvision.datasets as datasets$/;"	i
 datasets	DisCo/main_moco_distill_rkd.py	/^import torchvision.datasets as datasets$/;"	i
 datasets	moco/cifar_main_lincls.py	/^import torchvision.datasets as datasets$/;"	i
 datasets	moco/main_lincls.py	/^import torchvision.datasets as datasets$/;"	i
@@ -5729,8 +5696,6 @@ dest	DisCo/main_embd.py	/^                    dest='weight_decay')$/;"	v
 dest	DisCo/main_lincls.py	/^                    dest='weight_decay')$/;"	v
 dest	DisCo/main_lincls_ft.py	/^                    dest='weight_decay')$/;"	v
 dest	DisCo/main_lincls_semi.py	/^                    dest='weight_decay')$/;"	v
-dest	DisCo/main_moco.py	/^                    dest='weight_decay')$/;"	v
-dest	DisCo/main_moco_distill.py	/^                    dest='weight_decay')$/;"	v
 dest	DisCo/main_moco_distill_rkd.py	/^                    dest='weight_decay')$/;"	v
 dest	moco/cifar_main_lincls.py	/^                    dest='weight_decay')$/;"	v
 dest	moco/main_lincls.py	/^                    dest='weight_decay')$/;"	v
@@ -5747,8 +5712,6 @@ display	DisCo/main_embd.py	/^    def display(self, batch):$/;"	m	class:ProgressM
 display	DisCo/main_lincls.py	/^    def display(self, batch):$/;"	m	class:ProgressMeter
 display	DisCo/main_lincls_ft.py	/^    def display(self, batch):$/;"	m	class:ProgressMeter
 display	DisCo/main_lincls_semi.py	/^    def display(self, batch):$/;"	m	class:ProgressMeter
-display	DisCo/main_moco.py	/^    def display(self, batch):$/;"	m	class:ProgressMeter
-display	DisCo/main_moco_distill.py	/^    def display(self, batch):$/;"	m	class:ProgressMeter
 display	DisCo/main_moco_distill_rkd.py	/^    def display(self, batch):$/;"	m	class:ProgressMeter
 display	moco/cifar_main_lincls.py	/^    def display(self, batch):$/;"	m	class:ProgressMeter
 display	moco/main_lincls.py	/^    def display(self, batch):$/;"	m	class:ProgressMeter
@@ -5762,8 +5725,6 @@ dist	DisCo/main_embd.py	/^import torch.distributed as dist$/;"	i
 dist	DisCo/main_lincls.py	/^import torch.distributed as dist$/;"	i
 dist	DisCo/main_lincls_ft.py	/^import torch.distributed as dist$/;"	i
 dist	DisCo/main_lincls_semi.py	/^import torch.distributed as dist$/;"	i
-dist	DisCo/main_moco.py	/^import torch.distributed as dist$/;"	i
-dist	DisCo/main_moco_distill.py	/^import torch.distributed as dist$/;"	i
 dist	DisCo/main_moco_distill_rkd.py	/^import torch.distributed as dist$/;"	i
 dist	moco/cifar_main_lincls.py	/^import torch.distributed as dist$/;"	i
 dist	moco/main_lincls.py	/^import torch.distributed as dist$/;"	i
@@ -5783,8 +5744,6 @@ distributed	DisCo/main_embd.py	/^import torch.utils.data.distributed$/;"	i
 distributed	DisCo/main_lincls.py	/^import torch.utils.data.distributed$/;"	i
 distributed	DisCo/main_lincls_ft.py	/^import torch.utils.data.distributed$/;"	i
 distributed	DisCo/main_lincls_semi.py	/^import torch.utils.data.distributed$/;"	i
-distributed	DisCo/main_moco.py	/^import torch.utils.data.distributed$/;"	i
-distributed	DisCo/main_moco_distill.py	/^import torch.utils.data.distributed$/;"	i
 distributed	DisCo/main_moco_distill_rkd.py	/^import torch.utils.data.distributed$/;"	i
 distributed	moco/cifar_main_lincls.py	/^import torch.utils.data.distributed$/;"	i
 distributed	moco/main_lincls.py	/^import torch.utils.data.distributed$/;"	i
@@ -5991,8 +5950,6 @@ efficientnet_b0	DisCo/main_embd.py	/^from models.efficientnet import efficientne
 efficientnet_b0	DisCo/main_lincls.py	/^from models.efficientnet import efficientnet_b0$/;"	i
 efficientnet_b0	DisCo/main_lincls_ft.py	/^from models.efficientnet import efficientnet_b0$/;"	i
 efficientnet_b0	DisCo/main_lincls_semi.py	/^from models.efficientnet import efficientnet_b0$/;"	i
-efficientnet_b0	DisCo/main_moco.py	/^from backbone.efficientnet import efficientnet_b0$/;"	i
-efficientnet_b0	DisCo/main_moco_distill.py	/^from models.efficientnet import efficientnet_b0$/;"	i
 efficientnet_b0	DisCo/main_moco_distill_rkd.py	/^from models.efficientnet import efficientnet_b0$/;"	i
 efficientnet_b0	DisCo/models/efficientnet.py	/^def efficientnet_b0(pretrained=False, **kwargs):$/;"	f
 efficientnet_b0	moco/cifar_main_lincls.py	/^from models.efficientnet import efficientnet_b0$/;"	i
@@ -8338,54 +8295,6 @@ help	DisCo/main_lincls_semi.py	/^                    help='path to latest checkp
 help	DisCo/main_lincls_semi.py	/^                    help='path to moco pretrained checkpoint')$/;"	v
 help	DisCo/main_lincls_semi.py	/^                    help='seed for initializing training. ')$/;"	v
 help	DisCo/main_lincls_semi.py	/^                    help='url used to set up distributed training')$/;"	v
-help	DisCo/main_moco.py	/^                    help='0 for false')$/;"	v
-help	DisCo/main_moco.py	/^                    help='GPU id to use.')$/;"	v
-help	DisCo/main_moco.py	/^                    help='Use multi-processing distributed training to launch '$/;"	v
-help	DisCo/main_moco.py	/^                    help='distributed backend')$/;"	v
-help	DisCo/main_moco.py	/^                    help='feature dimension (default: 128)')$/;"	v
-help	DisCo/main_moco.py	/^                    help='learning rate schedule (when to drop lr by 10x)')$/;"	v
-help	DisCo/main_moco.py	/^                    help='manual epoch number (useful on restarts)')$/;"	v
-help	DisCo/main_moco.py	/^                    help='mini-batch size (default: 256), this is the total '$/;"	v
-help	DisCo/main_moco.py	/^                    help='moco momentum of updating key encoder (default: 0.999)')$/;"	v
-help	DisCo/main_moco.py	/^                    help='model architecture: ' +$/;"	v
-help	DisCo/main_moco.py	/^                    help='momentum of SGD solver')$/;"	v
-help	DisCo/main_moco.py	/^                    help='node rank for distributed training')$/;"	v
-help	DisCo/main_moco.py	/^                    help='number of data loading workers (default: 32)')$/;"	v
-help	DisCo/main_moco.py	/^                    help='number of nodes for distributed training')$/;"	v
-help	DisCo/main_moco.py	/^                    help='number of total epochs to run')$/;"	v
-help	DisCo/main_moco.py	/^                    help='path to dataset')$/;"	v
-help	DisCo/main_moco.py	/^                    help='path to latest checkpoint (default: none)')$/;"	v
-help	DisCo/main_moco.py	/^                    help='queue size; number of negative keys (default: 65536)')$/;"	v
-help	DisCo/main_moco.py	/^                    help='seed for initializing training. ')$/;"	v
-help	DisCo/main_moco.py	/^                    help='softmax temperature (default: 0.07)')$/;"	v
-help	DisCo/main_moco.py	/^                    help='url used to set up distributed training')$/;"	v
-help	DisCo/main_moco.py	/^                    help='use cosine lr schedule')$/;"	v
-help	DisCo/main_moco.py	/^                    help='use mlp head')$/;"	v
-help	DisCo/main_moco.py	/^                    help='use moco v2 data augmentation')$/;"	v
-help	DisCo/main_moco_distill.py	/^                    help='GPU id to use.')$/;"	v
-help	DisCo/main_moco_distill.py	/^                    help='Use multi-processing distributed training to launch '$/;"	v
-help	DisCo/main_moco_distill.py	/^                    help='distributed backend')$/;"	v
-help	DisCo/main_moco_distill.py	/^                    help='feature dimension (default: 128)')$/;"	v
-help	DisCo/main_moco_distill.py	/^                    help='learning rate schedule (when to drop lr by 10x)')$/;"	v
-help	DisCo/main_moco_distill.py	/^                    help='manual epoch number (useful on restarts)')$/;"	v
-help	DisCo/main_moco_distill.py	/^                    help='mini-batch size (default: 256), this is the total '$/;"	v
-help	DisCo/main_moco_distill.py	/^                    help='moco momentum of updating key encoder (default: 0.999)')$/;"	v
-help	DisCo/main_moco_distill.py	/^                    help='model architecture: ' +$/;"	v
-help	DisCo/main_moco_distill.py	/^                    help='momentum of SGD solver')$/;"	v
-help	DisCo/main_moco_distill.py	/^                    help='node rank for distributed training')$/;"	v
-help	DisCo/main_moco_distill.py	/^                    help='number of data loading workers (default: 32)')$/;"	v
-help	DisCo/main_moco_distill.py	/^                    help='number of nodes for distributed training')$/;"	v
-help	DisCo/main_moco_distill.py	/^                    help='number of total epochs to run')$/;"	v
-help	DisCo/main_moco_distill.py	/^                    help='path to dataset')$/;"	v
-help	DisCo/main_moco_distill.py	/^                    help='path to latest checkpoint (default: none)')$/;"	v
-help	DisCo/main_moco_distill.py	/^                    help='path to teacher checkpoint (default: none)')$/;"	v
-help	DisCo/main_moco_distill.py	/^                    help='queue size; number of negative keys (default: 65536)')$/;"	v
-help	DisCo/main_moco_distill.py	/^                    help='seed for initializing training. ')$/;"	v
-help	DisCo/main_moco_distill.py	/^                    help='softmax temperature (default: 0.07)')$/;"	v
-help	DisCo/main_moco_distill.py	/^                    help='url used to set up distributed training')$/;"	v
-help	DisCo/main_moco_distill.py	/^                    help='use cosine lr schedule')$/;"	v
-help	DisCo/main_moco_distill.py	/^                    help='use mlp head')$/;"	v
-help	DisCo/main_moco_distill.py	/^                    help='use moco v2 data augmentation')$/;"	v
 help	DisCo/main_moco_distill_rkd.py	/^                    help='GPU id to use.')$/;"	v
 help	DisCo/main_moco_distill_rkd.py	/^                    help='Use multi-processing distributed training to launch '$/;"	v
 help	DisCo/main_moco_distill_rkd.py	/^                    help='distributed backend')$/;"	v
@@ -9025,8 +8934,6 @@ load_state_dict_from_url	moco/models/helpers.py	/^from torch.hub import load_sta
 load_state_dict_from_url	moco/models/models/hub.py	/^from torch.hub import load_state_dict_from_url, download_url_to_file, urlparse, HASH_REGEX$/;"	i
 load_state_dict_from_url	swav-master/src/helpers.py	/^from torch.hub import load_state_dict_from_url, download_url_to_file, urlparse, HASH_REGEX$/;"	i
 loader	DisCo/main.py	/^import moco.loader$/;"	i
-loader	DisCo/main_moco.py	/^import moco.loader$/;"	i
-loader	DisCo/main_moco_distill.py	/^import moco.loader$/;"	i
 loader	DisCo/main_moco_distill_rkd.py	/^import moco.loader$/;"	i
 loader	moco/main_moco.py	/^import moco.loader$/;"	i
 log_sigmoid	moco/models/models/nfnet.py	/^    log_sigmoid=1.9193484783172607,$/;"	v
@@ -9076,8 +8983,6 @@ main	DisCo/main_embd.py	/^def main():$/;"	f
 main	DisCo/main_lincls.py	/^def main():$/;"	f
 main	DisCo/main_lincls_ft.py	/^def main():$/;"	f
 main	DisCo/main_lincls_semi.py	/^def main():$/;"	f
-main	DisCo/main_moco.py	/^def main():$/;"	f
-main	DisCo/main_moco_distill.py	/^def main():$/;"	f
 main	DisCo/main_moco_distill_rkd.py	/^def main():$/;"	f
 main	DisCo/visualization/draw.py	/^def main():$/;"	f
 main	moco/cifar_main_lincls.py	/^def main():$/;"	f
@@ -9098,8 +9003,6 @@ main_worker	DisCo/main_embd.py	/^def main_worker(gpu, ngpus_per_node, args):$/;"
 main_worker	DisCo/main_lincls.py	/^def main_worker(gpu, ngpus_per_node, args):$/;"	f
 main_worker	DisCo/main_lincls_ft.py	/^def main_worker(gpu, ngpus_per_node, args):$/;"	f
 main_worker	DisCo/main_lincls_semi.py	/^def main_worker(gpu, ngpus_per_node, args):$/;"	f
-main_worker	DisCo/main_moco.py	/^def main_worker(gpu, ngpus_per_node, args):$/;"	f
-main_worker	DisCo/main_moco_distill.py	/^def main_worker(gpu, ngpus_per_node, args):$/;"	f
 main_worker	DisCo/main_moco_distill_rkd.py	/^def main_worker(gpu, ngpus_per_node, args):$/;"	f
 main_worker	moco/cifar_main_lincls.py	/^def main_worker(gpu, ngpus_per_node, args):$/;"	f
 main_worker	moco/main_lincls.py	/^def main_worker(gpu, ngpus_per_node, args):$/;"	f
@@ -9136,8 +9039,6 @@ math	DisCo/backbone/layers/eca.py	/^import math$/;"	i
 math	DisCo/backbone/layers/padding.py	/^import math$/;"	i
 math	DisCo/backbone/layers/weight_init.py	/^import math$/;"	i
 math	DisCo/main.py	/^import math$/;"	i
-math	DisCo/main_moco.py	/^import math$/;"	i
-math	DisCo/main_moco_distill.py	/^import math$/;"	i
 math	DisCo/main_moco_distill_rkd.py	/^import math$/;"	i
 math	DisCo/models/dla.py	/^import math$/;"	i
 math	DisCo/models/efficientnet_builder.py	/^import math$/;"	i
@@ -9232,8 +9133,6 @@ metavar	DisCo/main_embd.py	/^                    metavar='N',$/;"	v
 metavar	DisCo/main_lincls.py	/^                    metavar='N',$/;"	v
 metavar	DisCo/main_lincls_ft.py	/^                    metavar='N',$/;"	v
 metavar	DisCo/main_lincls_semi.py	/^                    metavar='N',$/;"	v
-metavar	DisCo/main_moco.py	/^                    metavar='N',$/;"	v
-metavar	DisCo/main_moco_distill.py	/^                    metavar='N',$/;"	v
 metavar	DisCo/main_moco_distill_rkd.py	/^                    metavar='N',$/;"	v
 metavar	moco/cifar_main_lincls.py	/^                    metavar='N',$/;"	v
 metavar	moco/main_lincls.py	/^                    metavar='N',$/;"	v
@@ -9435,10 +9334,6 @@ mobilenetv3_small_100	swav-master/src/mobilenetv3.py	/^def mobilenetv3_small_100
 mobilenetv3_small_100	swav-master/src/my_mobilenetv3.py	/^def mobilenetv3_small_100(pretrained=False, **kwargs):$/;"	f
 moco	DisCo/main.py	/^import moco.builder_kq_mse_largeembedding_2048$/;"	i
 moco	DisCo/main.py	/^import moco.loader$/;"	i
-moco	DisCo/main_moco.py	/^import moco.loader$/;"	i
-moco	DisCo/main_moco.py	/^import moco.my_builder$/;"	i
-moco	DisCo/main_moco_distill.py	/^import moco.builder$/;"	i
-moco	DisCo/main_moco_distill.py	/^import moco.loader$/;"	i
 moco	DisCo/main_moco_distill_rkd.py	/^import moco.builder_kq_mse_largeembedding_2048$/;"	i
 moco	DisCo/main_moco_distill_rkd.py	/^import moco.loader$/;"	i
 moco	moco/main_moco.py	/^import moco.builder$/;"	i
@@ -9475,8 +9370,6 @@ model_names	DisCo/main_embd.py	/^model_names = sorted(name for name in models.__
 model_names	DisCo/main_lincls.py	/^model_names = sorted(name for name in models.__dict__$/;"	v
 model_names	DisCo/main_lincls_ft.py	/^model_names = sorted(name for name in models.__dict__$/;"	v
 model_names	DisCo/main_lincls_semi.py	/^model_names = sorted(name for name in models.__dict__$/;"	v
-model_names	DisCo/main_moco.py	/^model_names = sorted(name for name in models.__dict__$/;"	v
-model_names	DisCo/main_moco_distill.py	/^model_names = sorted(name for name in models.__dict__$/;"	v
 model_names	DisCo/main_moco_distill_rkd.py	/^model_names = sorted(name for name in models.__dict__$/;"	v
 model_names	moco/cifar_main_lincls.py	/^model_names = sorted(name for name in models.__dict__$/;"	v
 model_names	moco/main_lincls.py	/^model_names = sorted(name for name in models.__dict__$/;"	v
@@ -9536,8 +9429,6 @@ models	DisCo/main_embd.py	/^import torchvision.models as models$/;"	i
 models	DisCo/main_lincls.py	/^import torchvision.models as models$/;"	i
 models	DisCo/main_lincls_ft.py	/^import torchvision.models as models$/;"	i
 models	DisCo/main_lincls_semi.py	/^import torchvision.models as models$/;"	i
-models	DisCo/main_moco.py	/^import torchvision.models as models$/;"	i
-models	DisCo/main_moco_distill.py	/^import torchvision.models as models$/;"	i
 models	DisCo/main_moco_distill_rkd.py	/^import torchvision.models as models$/;"	i
 models	moco/cifar_main_lincls.py	/^import torchvision.models as models$/;"	i
 models	moco/main_lincls.py	/^import models$/;"	i
@@ -9560,8 +9451,6 @@ mp	DisCo/main_embd.py	/^import torch.multiprocessing as mp$/;"	i
 mp	DisCo/main_lincls.py	/^import torch.multiprocessing as mp$/;"	i
 mp	DisCo/main_lincls_ft.py	/^import torch.multiprocessing as mp$/;"	i
 mp	DisCo/main_lincls_semi.py	/^import torch.multiprocessing as mp$/;"	i
-mp	DisCo/main_moco.py	/^import torch.multiprocessing as mp$/;"	i
-mp	DisCo/main_moco_distill.py	/^import torch.multiprocessing as mp$/;"	i
 mp	DisCo/main_moco_distill_rkd.py	/^import torch.multiprocessing as mp$/;"	i
 mp	moco/cifar_main_lincls.py	/^import torch.multiprocessing as mp$/;"	i
 mp	moco/main_lincls.py	/^import torch.multiprocessing as mp$/;"	i
@@ -9569,7 +9458,6 @@ mp	moco/main_moco.py	/^import torch.multiprocessing as mp$/;"	i
 mp	moco/yt_main_lincls_ft.py	/^import torch.multiprocessing as mp$/;"	i
 mp	moco/yt_main_lincls_schedule.py	/^import torch.multiprocessing as mp$/;"	i
 mp	moco/yt_main_lincls_semi.py	/^import torch.multiprocessing as mp$/;"	i
-my_builder	DisCo/main_moco.py	/^import moco.my_builder$/;"	i
 name	DisCo/models/twod_models/temporal_modeling.py	/^    def name(self):$/;"	m	class:TAM
 name	moco/models/models/twod_models/temporal_modeling.py	/^    def name(self):$/;"	m	class:TAM
 name	moco/models/twod_models/temporal_modeling.py	/^    def name(self):$/;"	m	class:TAM
@@ -9737,10 +9625,6 @@ nn	DisCo/main_lincls_ft.py	/^import torch.nn as nn$/;"	i
 nn	DisCo/main_lincls_ft.py	/^import torch.nn.parallel$/;"	i
 nn	DisCo/main_lincls_semi.py	/^import torch.nn as nn$/;"	i
 nn	DisCo/main_lincls_semi.py	/^import torch.nn.parallel$/;"	i
-nn	DisCo/main_moco.py	/^import torch.nn as nn$/;"	i
-nn	DisCo/main_moco.py	/^import torch.nn.parallel$/;"	i
-nn	DisCo/main_moco_distill.py	/^import torch.nn as nn$/;"	i
-nn	DisCo/main_moco_distill.py	/^import torch.nn.parallel$/;"	i
 nn	DisCo/main_moco_distill_rkd.py	/^import torch.nn as nn$/;"	i
 nn	DisCo/main_moco_distill_rkd.py	/^import torch.nn.parallel$/;"	i
 nn	DisCo/moco/builder.py	/^import torch.nn as nn$/;"	i
@@ -10290,8 +10174,6 @@ optim	DisCo/main_embd.py	/^import torch.optim$/;"	i
 optim	DisCo/main_lincls.py	/^import torch.optim$/;"	i
 optim	DisCo/main_lincls_ft.py	/^import torch.optim$/;"	i
 optim	DisCo/main_lincls_semi.py	/^import torch.optim$/;"	i
-optim	DisCo/main_moco.py	/^import torch.optim$/;"	i
-optim	DisCo/main_moco_distill.py	/^import torch.optim$/;"	i
 optim	DisCo/main_moco_distill_rkd.py	/^import torch.optim$/;"	i
 optim	moco/cifar_main_lincls.py	/^import torch.optim$/;"	i
 optim	moco/main_lincls.py	/^import torch.optim$/;"	i
@@ -10313,8 +10195,6 @@ os	DisCo/main_embd.py	/^import os$/;"	i
 os	DisCo/main_lincls.py	/^import os$/;"	i
 os	DisCo/main_lincls_ft.py	/^import os$/;"	i
 os	DisCo/main_lincls_semi.py	/^import os$/;"	i
-os	DisCo/main_moco.py	/^import os$/;"	i
-os	DisCo/main_moco_distill.py	/^import os$/;"	i
 os	DisCo/main_moco_distill_rkd.py	/^import os$/;"	i
 os	DisCo/models/helpers.py	/^import os$/;"	i
 os	moco/cifar_main_lincls.py	/^import os$/;"	i
@@ -10400,8 +10280,6 @@ parallel	DisCo/main_embd.py	/^import torch.nn.parallel$/;"	i
 parallel	DisCo/main_lincls.py	/^import torch.nn.parallel$/;"	i
 parallel	DisCo/main_lincls_ft.py	/^import torch.nn.parallel$/;"	i
 parallel	DisCo/main_lincls_semi.py	/^import torch.nn.parallel$/;"	i
-parallel	DisCo/main_moco.py	/^import torch.nn.parallel$/;"	i
-parallel	DisCo/main_moco_distill.py	/^import torch.nn.parallel$/;"	i
 parallel	DisCo/main_moco_distill_rkd.py	/^import torch.nn.parallel$/;"	i
 parallel	DisCo/models/layers/anti_aliasing.py	/^import torch.nn.parallel$/;"	i
 parallel	moco/cifar_main_lincls.py	/^import torch.nn.parallel$/;"	i
@@ -10429,8 +10307,6 @@ parser	DisCo/main_embd.py	/^parser = argparse.ArgumentParser(description='PyTorc
 parser	DisCo/main_lincls.py	/^parser = argparse.ArgumentParser(description='PyTorch ImageNet Training')$/;"	v
 parser	DisCo/main_lincls_ft.py	/^parser = argparse.ArgumentParser(description='PyTorch ImageNet Training')$/;"	v
 parser	DisCo/main_lincls_semi.py	/^parser = argparse.ArgumentParser(description='PyTorch ImageNet Training')$/;"	v
-parser	DisCo/main_moco.py	/^parser = argparse.ArgumentParser(description='PyTorch ImageNet Training')$/;"	v
-parser	DisCo/main_moco_distill.py	/^parser = argparse.ArgumentParser(description='PyTorch ImageNet Training')$/;"	v
 parser	DisCo/main_moco_distill_rkd.py	/^parser = argparse.ArgumentParser(description='PyTorch ImageNet Training')$/;"	v
 parser	moco/cifar_main_lincls.py	/^parser = argparse.ArgumentParser(description='PyTorch ImageNet Training')$/;"	v
 parser	moco/main_lincls.py	/^parser = argparse.ArgumentParser(description='PyTorch ImageNet Training')$/;"	v
@@ -10519,8 +10395,6 @@ print_pass	DisCo/main_embd.py	/^        def print_pass(*args):$/;"	f	function:ma
 print_pass	DisCo/main_lincls.py	/^        def print_pass(*args):$/;"	f	function:main_worker
 print_pass	DisCo/main_lincls_ft.py	/^        def print_pass(*args):$/;"	f	function:main_worker
 print_pass	DisCo/main_lincls_semi.py	/^        def print_pass(*args):$/;"	f	function:main_worker
-print_pass	DisCo/main_moco.py	/^        def print_pass(*args):$/;"	f	function:main_worker
-print_pass	DisCo/main_moco_distill.py	/^        def print_pass(*args):$/;"	f	function:main_worker
 print_pass	DisCo/main_moco_distill_rkd.py	/^        def print_pass(*args):$/;"	f	function:main_worker
 print_pass	moco/cifar_main_lincls.py	/^        def print_pass(*args):$/;"	f	function:main_worker
 print_pass	moco/main_lincls.py	/^        def print_pass(*args):$/;"	f	function:main_worker
@@ -10542,8 +10416,6 @@ random	DisCo/main_embd.py	/^import random$/;"	i
 random	DisCo/main_lincls.py	/^import random$/;"	i
 random	DisCo/main_lincls_ft.py	/^import random$/;"	i
 random	DisCo/main_lincls_semi.py	/^import random$/;"	i
-random	DisCo/main_moco.py	/^import random$/;"	i
-random	DisCo/main_moco_distill.py	/^import random$/;"	i
 random	DisCo/main_moco_distill_rkd.py	/^import random$/;"	i
 random	DisCo/moco/loader.py	/^import random$/;"	i
 random	moco/cifar_main_lincls.py	/^import random$/;"	i
@@ -10975,8 +10847,6 @@ reset	DisCo/main_embd.py	/^    def reset(self):$/;"	m	class:AverageMeter
 reset	DisCo/main_lincls.py	/^    def reset(self):$/;"	m	class:AverageMeter
 reset	DisCo/main_lincls_ft.py	/^    def reset(self):$/;"	m	class:AverageMeter
 reset	DisCo/main_lincls_semi.py	/^    def reset(self):$/;"	m	class:AverageMeter
-reset	DisCo/main_moco.py	/^    def reset(self):$/;"	m	class:AverageMeter
-reset	DisCo/main_moco_distill.py	/^    def reset(self):$/;"	m	class:AverageMeter
 reset	DisCo/main_moco_distill_rkd.py	/^    def reset(self):$/;"	m	class:AverageMeter
 reset	moco/cifar_main_lincls.py	/^    def reset(self):$/;"	m	class:AverageMeter
 reset	moco/main_lincls.py	/^    def reset(self):$/;"	m	class:AverageMeter
@@ -11454,8 +11324,6 @@ save_checkpoint	DisCo/main_embd.py	/^def save_checkpoint(state, is_best, filenam
 save_checkpoint	DisCo/main_lincls.py	/^def save_checkpoint(state, is_best, filename='ckpt\/checkpoint.pth.tar'):$/;"	f
 save_checkpoint	DisCo/main_lincls_ft.py	/^def save_checkpoint(state, is_best, filename='ckpt\/checkpoint.pth.tar'):$/;"	f
 save_checkpoint	DisCo/main_lincls_semi.py	/^def save_checkpoint(state, is_best, filename='ckpt\/checkpoint.pth.tar'):$/;"	f
-save_checkpoint	DisCo/main_moco.py	/^def save_checkpoint(state, is_best, filename='.\/ckpt\/checkpoint.pth.tar'):$/;"	f
-save_checkpoint	DisCo/main_moco_distill.py	/^def save_checkpoint(state, is_best, filename='checkpoint.pth.tar'):$/;"	f
 save_checkpoint	DisCo/main_moco_distill_rkd.py	/^def save_checkpoint(state, is_best, filename='checkpoint.pth.tar', pre_filename=None):$/;"	f
 save_checkpoint	moco/cifar_main_lincls.py	/^def save_checkpoint(state, is_best, filename='ckpt\/checkpoint.pth.tar'):$/;"	f
 save_checkpoint	moco/main_lincls.py	/^def save_checkpoint(state, is_best, filename='ckpt\/checkpoint.pth.tar'):$/;"	f
@@ -11669,8 +11537,6 @@ shutil	DisCo/main_embd.py	/^import shutil$/;"	i
 shutil	DisCo/main_lincls.py	/^import shutil$/;"	i
 shutil	DisCo/main_lincls_ft.py	/^import shutil$/;"	i
 shutil	DisCo/main_lincls_semi.py	/^import shutil$/;"	i
-shutil	DisCo/main_moco.py	/^import shutil$/;"	i
-shutil	DisCo/main_moco_distill.py	/^import shutil$/;"	i
 shutil	DisCo/main_moco_distill_rkd.py	/^import shutil$/;"	i
 shutil	moco/cifar_main_lincls.py	/^import shutil$/;"	i
 shutil	moco/main_lincls.py	/^import shutil$/;"	i
@@ -11974,7 +11840,6 @@ symbolic	moco/models/models/layers/activations_me.py	/^    def symbolic(g, x):$/
 sys	DisCo/backbone/registry.py	/^import sys$/;"	i
 sys	DisCo/data/imagenet_1_fraction.py	/^import sys$/;"	i
 sys	DisCo/detection/convert-pretrain-to-detectron2.py	/^import sys$/;"	i
-sys	DisCo/main_moco_distill.py	/^import sys$/;"	i
 sys	DisCo/models/registry.py	/^import sys$/;"	i
 sys	moco/detection/convert-pretrain-to-detectron2.py	/^import sys$/;"	i
 sys	moco/models/registry.py	/^import sys$/;"	i
@@ -12302,8 +12167,6 @@ time	DisCo/main_embd.py	/^import time$/;"	i
 time	DisCo/main_lincls.py	/^import time$/;"	i
 time	DisCo/main_lincls_ft.py	/^import time$/;"	i
 time	DisCo/main_lincls_semi.py	/^import time$/;"	i
-time	DisCo/main_moco.py	/^import time$/;"	i
-time	DisCo/main_moco_distill.py	/^import time$/;"	i
 time	DisCo/main_moco_distill_rkd.py	/^import time$/;"	i
 time	DisCo/visualization/draw.py	/^from time import time$/;"	i
 time	moco/cifar_main_lincls.py	/^import time$/;"	i
@@ -12506,24 +12369,6 @@ torch	DisCo/main_lincls_semi.py	/^import torch.nn.parallel$/;"	i
 torch	DisCo/main_lincls_semi.py	/^import torch.optim$/;"	i
 torch	DisCo/main_lincls_semi.py	/^import torch.utils.data$/;"	i
 torch	DisCo/main_lincls_semi.py	/^import torch.utils.data.distributed$/;"	i
-torch	DisCo/main_moco.py	/^import torch$/;"	i
-torch	DisCo/main_moco.py	/^import torch.backends.cudnn as cudnn$/;"	i
-torch	DisCo/main_moco.py	/^import torch.distributed as dist$/;"	i
-torch	DisCo/main_moco.py	/^import torch.multiprocessing as mp$/;"	i
-torch	DisCo/main_moco.py	/^import torch.nn as nn$/;"	i
-torch	DisCo/main_moco.py	/^import torch.nn.parallel$/;"	i
-torch	DisCo/main_moco.py	/^import torch.optim$/;"	i
-torch	DisCo/main_moco.py	/^import torch.utils.data$/;"	i
-torch	DisCo/main_moco.py	/^import torch.utils.data.distributed$/;"	i
-torch	DisCo/main_moco_distill.py	/^import torch$/;"	i
-torch	DisCo/main_moco_distill.py	/^import torch.backends.cudnn as cudnn$/;"	i
-torch	DisCo/main_moco_distill.py	/^import torch.distributed as dist$/;"	i
-torch	DisCo/main_moco_distill.py	/^import torch.multiprocessing as mp$/;"	i
-torch	DisCo/main_moco_distill.py	/^import torch.nn as nn$/;"	i
-torch	DisCo/main_moco_distill.py	/^import torch.nn.parallel$/;"	i
-torch	DisCo/main_moco_distill.py	/^import torch.optim$/;"	i
-torch	DisCo/main_moco_distill.py	/^import torch.utils.data$/;"	i
-torch	DisCo/main_moco_distill.py	/^import torch.utils.data.distributed$/;"	i
 torch	DisCo/main_moco_distill_rkd.py	/^import torch$/;"	i
 torch	DisCo/main_moco_distill_rkd.py	/^import torch.backends.cudnn as cudnn$/;"	i
 torch	DisCo/main_moco_distill_rkd.py	/^import torch.distributed as dist$/;"	i
@@ -13268,12 +13113,6 @@ torchvision	DisCo/main_lincls_ft.py	/^import torchvision.transforms as transform
 torchvision	DisCo/main_lincls_semi.py	/^import torchvision.datasets as datasets$/;"	i
 torchvision	DisCo/main_lincls_semi.py	/^import torchvision.models as models$/;"	i
 torchvision	DisCo/main_lincls_semi.py	/^import torchvision.transforms as transforms$/;"	i
-torchvision	DisCo/main_moco.py	/^import torchvision.datasets as datasets$/;"	i
-torchvision	DisCo/main_moco.py	/^import torchvision.models as models$/;"	i
-torchvision	DisCo/main_moco.py	/^import torchvision.transforms as transforms$/;"	i
-torchvision	DisCo/main_moco_distill.py	/^import torchvision.datasets as datasets$/;"	i
-torchvision	DisCo/main_moco_distill.py	/^import torchvision.models as models$/;"	i
-torchvision	DisCo/main_moco_distill.py	/^import torchvision.transforms as transforms$/;"	i
 torchvision	DisCo/main_moco_distill_rkd.py	/^import torchvision.datasets as datasets$/;"	i
 torchvision	DisCo/main_moco_distill_rkd.py	/^import torchvision.models as models$/;"	i
 torchvision	DisCo/main_moco_distill_rkd.py	/^import torchvision.transforms as transforms$/;"	i
@@ -13309,8 +13148,6 @@ train	DisCo/main_embd.py	/^def train(train_loader, model, criterion, optimizer, 
 train	DisCo/main_lincls.py	/^def train(train_loader, model, criterion, optimizer, epoch, args):$/;"	f
 train	DisCo/main_lincls_ft.py	/^def train(train_loader, model, teacher_model, criterion, optimizer, epoch, args):$/;"	f
 train	DisCo/main_lincls_semi.py	/^def train(train_loader, model, criterion, optimizer, epoch, args):$/;"	f
-train	DisCo/main_moco.py	/^def train(train_loader, model, criterion, optimizer, epoch, args):$/;"	f
-train	DisCo/main_moco_distill.py	/^def train(train_loader, model, criterion, criterion_mse, optimizer, epoch, args):$/;"	f
 train	DisCo/main_moco_distill_rkd.py	/^def train(train_loader, model, criterion, criterion_mse, criterion_dist, criterion_angle, optimizer, epoch, args):$/;"	f
 train	moco/cifar_main_lincls.py	/^def train(train_loader, model, criterion, optimizer, epoch, args):$/;"	f
 train	moco/main_lincls.py	/^def train(train_loader, model, criterion, optimizer, epoch, args):$/;"	f
@@ -13329,8 +13166,6 @@ transforms	DisCo/main_embd.py	/^import torchvision.transforms as transforms$/;"	
 transforms	DisCo/main_lincls.py	/^import torchvision.transforms as transforms$/;"	i
 transforms	DisCo/main_lincls_ft.py	/^import torchvision.transforms as transforms$/;"	i
 transforms	DisCo/main_lincls_semi.py	/^import torchvision.transforms as transforms$/;"	i
-transforms	DisCo/main_moco.py	/^import torchvision.transforms as transforms$/;"	i
-transforms	DisCo/main_moco_distill.py	/^import torchvision.transforms as transforms$/;"	i
 transforms	DisCo/main_moco_distill_rkd.py	/^import torchvision.transforms as transforms$/;"	i
 transforms	moco/cifar_main_lincls.py	/^import torchvision.transforms as transforms$/;"	i
 transforms	moco/main_lincls.py	/^import torchvision.transforms as transforms$/;"	i
@@ -13421,8 +13256,6 @@ update	DisCo/main_embd.py	/^    def update(self, val, n=1):$/;"	m	class:AverageM
 update	DisCo/main_lincls.py	/^    def update(self, val, n=1):$/;"	m	class:AverageMeter
 update	DisCo/main_lincls_ft.py	/^    def update(self, val, n=1):$/;"	m	class:AverageMeter
 update	DisCo/main_lincls_semi.py	/^    def update(self, val, n=1):$/;"	m	class:AverageMeter
-update	DisCo/main_moco.py	/^    def update(self, val, n=1):$/;"	m	class:AverageMeter
-update	DisCo/main_moco_distill.py	/^    def update(self, val, n=1):$/;"	m	class:AverageMeter
 update	DisCo/main_moco_distill_rkd.py	/^    def update(self, val, n=1):$/;"	m	class:AverageMeter
 update	moco/cifar_main_lincls.py	/^    def update(self, val, n=1):$/;"	m	class:AverageMeter
 update	moco/main_lincls.py	/^    def update(self, val, n=1):$/;"	m	class:AverageMeter
@@ -13450,10 +13283,6 @@ utils	DisCo/main_lincls_ft.py	/^import torch.utils.data$/;"	i
 utils	DisCo/main_lincls_ft.py	/^import torch.utils.data.distributed$/;"	i
 utils	DisCo/main_lincls_semi.py	/^import torch.utils.data$/;"	i
 utils	DisCo/main_lincls_semi.py	/^import torch.utils.data.distributed$/;"	i
-utils	DisCo/main_moco.py	/^import torch.utils.data$/;"	i
-utils	DisCo/main_moco.py	/^import torch.utils.data.distributed$/;"	i
-utils	DisCo/main_moco_distill.py	/^import torch.utils.data$/;"	i
-utils	DisCo/main_moco_distill.py	/^import torch.utils.data.distributed$/;"	i
 utils	DisCo/main_moco_distill_rkd.py	/^import torch.utils.data$/;"	i
 utils	DisCo/main_moco_distill_rkd.py	/^import torch.utils.data.distributed$/;"	i
 utils	DisCo/models/densenet.py	/^import torch.utils.checkpoint as cp$/;"	i
@@ -13666,8 +13495,6 @@ warnings	DisCo/main_embd.py	/^import warnings$/;"	i
 warnings	DisCo/main_lincls.py	/^import warnings$/;"	i
 warnings	DisCo/main_lincls_ft.py	/^import warnings$/;"	i
 warnings	DisCo/main_lincls_semi.py	/^import warnings$/;"	i
-warnings	DisCo/main_moco.py	/^import warnings$/;"	i
-warnings	DisCo/main_moco_distill.py	/^import warnings$/;"	i
 warnings	DisCo/main_moco_distill_rkd.py	/^import warnings$/;"	i
 warnings	DisCo/models/layers/weight_init.py	/^import warnings$/;"	i
 warnings	moco/cifar_main_lincls.py	/^import warnings$/;"	i
