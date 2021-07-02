@@ -279,3 +279,7 @@ cp /path/to/dataset /dev/shm
 ## Thanks
 
 Code heavily depends on MoCo-V2, Detectron2.
+
+
+## Contact
+It's ok to **open an issue** or email me lincolnz9511@gmail.com
