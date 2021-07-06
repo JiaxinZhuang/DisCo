@@ -84,7 +84,7 @@ python3 -u main_lincls.py -a efficientb0 --learning-rate 3.0 --batch-size 256 --
 # R50w2 & Effib0
 python3 -u main.py -a efficientb0 --lr 0.03 --batch-size 256 --moco-t 0.2 --aug-plus --dist-url 'tcp://localhost:10043' --multiprocessing-distributed --world-size 1 --rank 0 --mlp --cos --teacher_arch resnet50w2 --teacher /path/to/swav_RN50w2_400ep_pretrain.pth.tar /dev/shm 2>&1 | tee ./logs/std.log
 #          Evaluation
-python3 yt_main_lincls.py -a resnet18 --learning-rate 30.0 --batch-size 256 --dist-url 'tcp://localhost:10001' --multiprocessing-distributed --world-size 1 --rank 0 --pretrained /path/to/ckpt/checkpoint_0199.pth.tar  /dev/shm 2>&1 | tee ./logs/std.log
+python3 yt_main_lincls.py -a efficientb0 --learning-rate 3.0 --batch-size 256 --dist-url 'tcp://localhost:10001' --multiprocessing-distributed --world-size 1 --rank 0 --pretrained /path/to/ckpt/checkpoint_0199.pth.tar  /dev/shm 2>&1 | tee ./logs/std.log
 ```
 
 For **Tab2**, Linear evaluation top-1 accuracy (%) on ImageNet compared with **different distillation methods.**
